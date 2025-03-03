@@ -6,8 +6,8 @@ from data_processing import prepare_user_input
 
 st.set_page_config(layout="wide")
 
-st.title("Test de l'app du siècle")
-st.write("Si tu vois ces sliders, c'est que ça marche ! 😎")
+st.title("Teste ta conso !")
+st.write("Modifie les valeurs de la température et d'ensoleillement pour voir comment ça impacte la consommation électrique 😎")
 
 df = pd.read_csv("df_transformed.csv")
 last_row = df.iloc[-1]
